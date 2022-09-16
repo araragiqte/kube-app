@@ -26,4 +26,4 @@ spec:
           command: ['sh', '-c', 'until nslookup vprodb; do echo waiting for mydb; sleep 2; done;']
         - name: init-mydb
           image: busybox
-          command: ['sh', '-c', 'until nslookup vprocached01; do echo waiting for mycache; sleep 2; done;']
+          command: ['sh', '-c', 'until nslookup vprocache01; do echo waiting for mycache; sleep 2; done;']
